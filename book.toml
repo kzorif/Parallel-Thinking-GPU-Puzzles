@@ -3,3 +3,30 @@ authors = ["firoz57"]
 language = "en"
 src = "src"
 title = "Parallel Thinking: GPU Programming Puzzles in Mojo"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "coal"
+fold.enable = true
+git-repository-url = "https://github.com/kzorif/Parallel-Thinking-GPU-Puzzles"
+edit-url-template = "https://github.com/kzorif/Parallel-Thinking-GPU-Puzzles/edit/main/{path}"
+
+[output.html.playground]
+editable = true
+
+[preprocessor.katex]
+[preprocessor.mermaid]
+[preprocessor.toc]
+[preprocessor.checklist]
+[preprocessor.multilang]
+[preprocessor.open-on-gh]
+[preprocessor.admonish]
+[preprocessor.graphviz]
+[preprocessor.svgbob]
+
+[output.linkcheck]
+[output.section-validator]
+[output.check-missing-md]
